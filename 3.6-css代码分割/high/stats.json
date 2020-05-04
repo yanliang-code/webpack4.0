@@ -1,0 +1,1459 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.1",
+  "hash": "149526c96f36db3216d7",
+  "time": 640,
+  "builtAt": 1587824418567,
+  "publicPath": "",
+  "outputPath": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "0.chunk.css",
+      "size": 48,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "0.chunk.js",
+      "size": 741,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "1.chunk.css",
+      "size": 33,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "1.chunk.js",
+      "size": 750,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 280,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 37108,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 86,
+      "names": [],
+      "files": [
+        "0.chunk.css",
+        "0.chunk.js"
+      ],
+      "hash": "b88442152d4b745fe24f",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/style.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "name": "./src/style.css",
+          "index": 1,
+          "index2": 2,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 67,
+                "building": 392
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 93
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./style.css",
+              "loc": "1:0-21"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": "?fae5",
+          "identifier": "css D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style.css",
+          "index": 2,
+          "index2": 1,
+          "size": 47,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "issuerId": "./src/style.css",
+          "issuerName": "./src/style.css",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 67,
+                "building": 392
+              }
+            },
+            {
+              "id": "./src/style.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "name": "./src/style.css",
+              "profile": {
+                "factory": 10,
+                "building": 93
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/style.css",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "module": "./src/style.css",
+              "moduleName": "./src/style.css"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/index.js",
+          "module": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "moduleName": "./src/index.js",
+          "loc": "1:0-21",
+          "request": "./style.css",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 71,
+      "names": [],
+      "files": [
+        "1.chunk.css",
+        "1.chunk.js"
+      ],
+      "hash": "134d92a4891cb7a94a39",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "name": "./src/style1.css",
+          "index": 3,
+          "index2": 4,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 67,
+                "building": 392
+              }
+            }
+          ],
+          "profile": {
+            "factory": 10,
+            "building": 93
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./style1.css",
+              "loc": "2:0-22"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": "?6372",
+          "identifier": "css D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+          "index": 4,
+          "index2": 3,
+          "size": 32,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "issuerId": "./src/style1.css",
+          "issuerName": "./src/style1.css",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 67,
+                "building": 392
+              }
+            },
+            {
+              "id": "./src/style1.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "name": "./src/style1.css",
+              "profile": {
+                "factory": 10,
+                "building": 93
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/style1.css",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "module": "./src/style1.css",
+              "moduleName": "./src/style1.css"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/index.js",
+          "module": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "moduleName": "./src/index.js",
+          "loc": "2:0-22",
+          "request": "./style1.css",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 77,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "33f69ff95ec14647541b",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0,
+        1
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 77,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 67,
+            "building": 392
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import('./style.css');\nimport('./style1.css');\nconsole.log('hello world!!!');"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/index.js",
+      "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 77,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 67,
+        "building": 392
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import('./style.css');\nimport('./style1.css');\nconsole.log('hello world!!!');"
+    },
+    {
+      "id": "./src/style.css",
+      "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+      "name": "./src/style.css",
+      "index": 1,
+      "index2": 2,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 67,
+            "building": 392
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 93
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./style.css",
+          "loc": "1:0-21"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": "./src/style1.css",
+      "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+      "name": "./src/style1.css",
+      "index": 3,
+      "index2": 4,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 67,
+            "building": 392
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 93
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./style1.css",
+          "loc": "2:0-22"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": "?6372",
+      "identifier": "css D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+      "index": 4,
+      "index2": 3,
+      "size": 32,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+      "issuerId": "./src/style1.css",
+      "issuerName": "./src/style1.css",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 67,
+            "building": 392
+          }
+        },
+        {
+          "id": "./src/style1.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "name": "./src/style1.css",
+          "profile": {
+            "factory": 10,
+            "building": 93
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/style1.css",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "module": "./src/style1.css",
+          "moduleName": "./src/style1.css"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "?fae5",
+      "identifier": "css D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style.css",
+      "index": 2,
+      "index2": 1,
+      "size": 47,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+      "issuerId": "./src/style.css",
+      "issuerName": "./src/style.css",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 67,
+            "building": 392
+          }
+        },
+        {
+          "id": "./src/style.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "name": "./src/style.css",
+          "profile": {
+            "factory": 10,
+            "building": 93
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/style.css",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "module": "./src/style.css",
+          "moduleName": "./src/style.css"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 5970,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 539,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "2f835c9cd614e7595bc5",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 539,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 19,
+                "building": 14
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\coding\\\\webpack4.0学习\\\\3.6-css代码分割\\\\high\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n  <head>\\r\\n    <meta charset=\"UTF-8\" />\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\\r\\n    <title>html 模板</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <div id=\"root\"></div>\\r\\n  </body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 539,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 19,
+            "building": 14
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\coding\\\\webpack4.0学习\\\\3.6-css代码分割\\\\high\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n  <head>\\r\\n    <meta charset=\"UTF-8\" />\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\\r\\n    <title>html 模板</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <div id=\"root\"></div>\\r\\n  </body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "mini-css-extract-plugin",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2802,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "ce1b23833214cc888ead",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "index": 0,
+              "index2": 1,
+              "size": 285,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 2,
+                "building": 68
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body {\\r\\n  background-color: rebeccapurple;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                  "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                  "profile": {
+                    "factory": 2,
+                    "building": 68
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 2,
+                "building": 9
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                  "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                  "type": "cjs require",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-91"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+          "index": 0,
+          "index2": 1,
+          "size": 285,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 2,
+            "building": 68
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body {\\r\\n  background-color: rebeccapurple;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "profile": {
+                "factory": 2,
+                "building": 68
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+              "type": "cjs require",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-91"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/style.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "mini-css-extract-plugin",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2787,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "fb7002583c6e7bf71add",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "index": 0,
+              "index2": 1,
+              "size": 270,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 55,
+                "building": 16
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body {\\r\\n  font-size: 100px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+                  "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+                  "profile": {
+                    "factory": 55,
+                    "building": 16
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 0,
+                "building": 12
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+                  "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+                  "type": "cjs require",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-91"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+          "index": 0,
+          "index2": 1,
+          "size": 270,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 55,
+            "building": 16
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \"body {\\r\\n  font-size: 100px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "profile": {
+                "factory": 55,
+                "building": 16
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 12
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\node_modules\\css-loader\\dist\\cjs.js!D:\\coding\\webpack4.0学习\\3.6-css代码分割\\high\\src\\style1.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style1.css",
+              "type": "cjs require",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-91"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/style1.css"
+    }
+  ]
+}

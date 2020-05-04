@@ -1,0 +1,12 @@
+- vue 理念：让用户用的更方便 react 理念：让用户用的更灵活
+- vue 不会像 react 提供命令，让 webpack 显示出来，vue 封装了一套 API，你需要查阅 vue 官网的配置参考，在 vue.config.js 中按要求配置参数，vue 内部会读取 vue.config.js 内容进行解析处理为 webpack 配置，与内置的 webpack 配置结合
+- 注意：当 vueCli 官方提供的 API 不能满足需求时，可以使用 configureWebpack 进行纯 webpack 的配置，vue 底层会通过 merge 进行融合
+- vue 底层生成 webpack 的入口：6.2-vueCli3\my-project\node_modules\@vue\cli-service\lib\Service.js
+
+- webpack 官网
+  - concepts：核心概念
+  - configuration：具体配置项的含义以及用法
+  - api：制作自定义 loaders 与 plugins，需要查看的 API
+  - guides：大面上结合语言、配置代码分割。。。
+  - loaders：官方建议使用的 loaders（不行去 github，查看官方的文档）
+  - plugins：官方建议使用的 plugins（不行去 github，查看官方的文档）

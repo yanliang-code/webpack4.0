@@ -1,0 +1,560 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.1",
+  "hash": "21e84c7c5c84629b67d4",
+  "time": 577,
+  "builtAt": 1587821199304,
+  "publicPath": "",
+  "outputPath": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "0.js",
+      "size": 1252,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 280,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 40382,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.js"
+        ]
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.js"
+        ]
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 173,
+      "names": [],
+      "files": [
+        "0.js"
+      ],
+      "hash": "c7baad2706fa253cce38",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/click.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\click.js",
+          "name": "./src/click.js",
+          "index": 1,
+          "index2": 1,
+          "size": 173,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 67,
+                "building": 434
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./click",
+              "loc": "33:2-35:12"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "function getComponent() {\n  var element = document.createElement('div');\n  element.innerHTML = 'yl-td';\n  document.body.appendChild(element);\n}\n\nexport default getComponent;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/index.js",
+          "module": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "moduleName": "./src/index.js",
+          "loc": "33:2-35:12",
+          "request": "./click",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2003,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "5bf0f7612d1740bb183c",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0
+      ],
+      "childrenByOrder": {
+        "prefetch": [
+          0
+        ]
+      },
+      "modules": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 2003,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 67,
+            "building": 434
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// /**/ 魔法注释，打包后的名字会使用lodash\n// function getComponent() {\n//   return import(/* webpackChunkName:\"lodash\" */ 'lodash').then(\n//     ({ default: _ }) => {\n//       var element = document.createElement('div');\n//       element.innerHTML = _.join(['yl', 'td'], '-');\n//       return element;\n//     }\n//   );\n// }\n// async function getComponent() {\n//   const { default: _ } = await import(/* webpackChunkName:\"lodash\" */ 'lodash');\n//   const element = document.createElement('div');\n//   element.innerHTML = _.join(['yl', 'td'], '-');\n//   return element;\n// }\n// // 点击hmtl文档时执行getComponent函数（懒加载，执行import时才会请求资源）\n// document.addEventListener('click', () => {\n//   getComponent().then((element) => {\n//     document.body.appendChild(element);\n//   });\n// });\n// document.addEventListener('click', () => {\n//   const element = document.createElement('div');\n//   element.innerHTML = 'yl-td';\n//   document.body.appendChild(element);\n// });\n// 需要触发并且异步执行的代码另创文件通过import方式导入后进行执行（webpack建议的方式）\n// 这样开始加载页面时，不需要执行的代码就不必要进行加载，等待需要时再加载运行\n// 目前的高性能前端代码（加载速度快），重点不是使用缓存，而是减少无用代码的加载，提高代码的使用率\n// 异步的代码才能提高首屏加载速度；同步的代码只能提高缓存的能力\ndocument.addEventListener('click', function () {\n  import(\n  /* webpackPrefetch: true */\n  './click').then(function (_ref) {\n    var func = _ref[\"default\"];\n    func();\n  });\n});\n/* \r\n    比如登录首页，登录后的主页以及逻辑先不加载（采用import方式加载），只加载登录首页的代码，\r\n    但是会不会点击登录后，主页加载的东西以及逻辑太多而导致太慢，所以需要在加载完登录首页后，\r\n    预加载主页的静态资源以及逻辑代码\r\n*/"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/click.js",
+      "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\click.js",
+      "name": "./src/click.js",
+      "index": 1,
+      "index2": 1,
+      "size": 173,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 67,
+            "building": 434
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./click",
+          "loc": "33:2-35:12"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "function getComponent() {\n  var element = document.createElement('div');\n  element.innerHTML = 'yl-td';\n  document.body.appendChild(element);\n}\n\nexport default getComponent;"
+    },
+    {
+      "id": "./src/index.js",
+      "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 2003,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 67,
+        "building": 434
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "// /**/ 魔法注释，打包后的名字会使用lodash\n// function getComponent() {\n//   return import(/* webpackChunkName:\"lodash\" */ 'lodash').then(\n//     ({ default: _ }) => {\n//       var element = document.createElement('div');\n//       element.innerHTML = _.join(['yl', 'td'], '-');\n//       return element;\n//     }\n//   );\n// }\n// async function getComponent() {\n//   const { default: _ } = await import(/* webpackChunkName:\"lodash\" */ 'lodash');\n//   const element = document.createElement('div');\n//   element.innerHTML = _.join(['yl', 'td'], '-');\n//   return element;\n// }\n// // 点击hmtl文档时执行getComponent函数（懒加载，执行import时才会请求资源）\n// document.addEventListener('click', () => {\n//   getComponent().then((element) => {\n//     document.body.appendChild(element);\n//   });\n// });\n// document.addEventListener('click', () => {\n//   const element = document.createElement('div');\n//   element.innerHTML = 'yl-td';\n//   document.body.appendChild(element);\n// });\n// 需要触发并且异步执行的代码另创文件通过import方式导入后进行执行（webpack建议的方式）\n// 这样开始加载页面时，不需要执行的代码就不必要进行加载，等待需要时再加载运行\n// 目前的高性能前端代码（加载速度快），重点不是使用缓存，而是减少无用代码的加载，提高代码的使用率\n// 异步的代码才能提高首屏加载速度；同步的代码只能提高缓存的能力\ndocument.addEventListener('click', function () {\n  import(\n  /* webpackPrefetch: true */\n  './click').then(function (_ref) {\n    var func = _ref[\"default\"];\n    func();\n  });\n});\n/* \r\n    比如登录首页，登录后的主页以及逻辑先不加载（采用import方式加载），只加载登录首页的代码，\r\n    但是会不会点击登录后，主页加载的东西以及逻辑太多而导致太慢，所以需要在加载完登录首页后，\r\n    预加载主页的静态资源以及逻辑代码\r\n*/"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 6014,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 559,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "b88740646b1ed2f30b5e",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 559,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 18,
+                "building": 13
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\coding\\\\webpack4.0学习\\\\3.5-打包分析,Preloading,Prefetching\\\\high\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n  <head>\\r\\n    <meta charset=\"UTF-8\" />\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\\r\\n    <title>html 模板</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <div id=\"root\"></div>\\r\\n  </body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "identifier": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 559,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 18,
+            "building": 13
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\coding\\webpack4.0学习\\3.5-打包分析,Preloading,Prefetching\\high\\src\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\coding\\\\webpack4.0学习\\\\3.5-打包分析,Preloading,Prefetching\\\\high\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n  <head>\\r\\n    <meta charset=\"UTF-8\" />\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\\r\\n    <title>html 模板</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <div id=\"root\"></div>\\r\\n  </body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}

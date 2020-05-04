@@ -1,0 +1,12 @@
+- npm 是 node 的一个工具（包管理工具）
+- npm init 是以 node 的规范创建一个项目或者 node 的包文件（使用 webpack 的前提） -y 会直接使用默认配置
+- package.json 中 "private": true,证明是私有项目，不会发布到 npm 线上仓库里
+- package.json 中 "main": "index.js",外部引用此项目的入口
+- npm install webpack webpack-cli -g 全局安装 webpack、webpack-cli（不推荐，若不同项目使用不同版本的 webpack 配置，会导致部分项目无法启动）
+- npm install webpack webpack-cli -D === npm install webpack webpack-cli --save-dev（项目中安装 webpack，会生成 node_modules，里面存储 webpack 需要的依赖包）
+  - --save ： dependencies 键下，发布后还需要依赖的模块，譬如像 jQuery 库或者 Angular 框架类似的，我们在开发完后肯定还要依赖它们，否则就运行不了。
+  - --save-dev ： devDependencies 键下，开发时的依赖比如安装 js 的压缩包 gulp-uglify 因为我们在发布后用不到它，而只是在我们开发才用到它。
+- 此时使用 webpack -v 报错，由于此命令会在全局中去寻找，导致只安装到项目中的无法读取
+- node 提供了一个命令 npx，他会去本项目中的 node_modules 寻找 webpack 的相关信息 npx webpack -v
+- npm info webpack 查看指定包的所有历史版本
+- npm install webpack@5.4.16.5 webpack-cli -D 使用@指定版本进行安装

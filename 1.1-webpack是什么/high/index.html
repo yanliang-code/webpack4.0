@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>网页内容</p>
+    <div id="root"></div>
+    <!-- 
+        这里直接引用webpack翻译后的index.js文件
+        注意：不要简单的认为webpack是翻译工具，它其实只认识import、export不多的标识符
+              准确的来说webpack是模块打包工具，index.js内的header、sider、content都是一个模块
+        webpack 模块打包工具
+        最初是js 模块打包工具  ->  完善成大多数文件都支持打包操作（比如css文件）
+     -->
+    <script src="./dist/main.js"></script>
+  </body>
+</html>

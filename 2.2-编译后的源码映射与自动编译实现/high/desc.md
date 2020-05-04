@@ -1,0 +1,17 @@
+- webpack - CONFIGURATION - devtool(重要) 方便开发时通过错误日志定位到源码中
+- source-map 原理需要了解（面试会问到）
+- 实现改变源码自动编译的三种方法
+  - webpack --watch //执行此命令后，webpack 会自动监听打包文件是否变化，发生变化会自动执行打包
+    - 缺点：不能生成服务器，使用 file 路径 js 请求会显示跨域。需要手动刷新浏览器
+  - npm i webpack-dev-server -D 通过 package.json 和 webpack.config.js 配置，执行 webpack-dev-server 命令，会启动一个服务器，会实现热加载以及动态刷新页面的效果 webpack - CONFIGURATION - DevServer(vue 底层也使用的这个)
+    - 缺点：目前相对于其他两种方法，此方法无缺点（推荐）
+  - npm i express webpack-dev-middleware -D
+    - express：快速搭建服务器
+    - webpack-dev-middleware：监听 src 下的源码的变化,自动打包
+    - 缺点：目前只是实现简单的服务器，无法实现自动刷新浏览器
+- webpack - DOCUMENTATION - API - Command Line Interface(命令行中 webpack 的执行语法)
+- webpack - DOCUMENTATION - API - Node Interface(node 中 webpack 的执行语法)
+- webpack - DOCUMENTATION - GUIDES - Development(阅读)
+- webpack - DOCUMENTATION - CONFIGURATION - Devtool(阅读)
+- webpack - DOCUMENTATION - CONFIGURATION - DevServer(阅读)
+- Hot Module Replacement HMR 热模块替换

@@ -1,0 +1,19 @@
+- 实现一个简易版的打包工具 webpack（bundler）
+  - 对指定一个模块进行分析（返回入口文件以及它的依赖）
+    - 解析入口文件为 ast 语法树 npm install @babel/parser --save
+    - 将 ast 语法树中的引入声明（ImportDeclaration）取出 npm install @babel/traverse --save(依赖分析)
+  - 编译成浏览器能识别的语言（es6 引入方式，浏览器无法解释）
+    - npm install @babel/core --save
+    - npm install --save @babel/preset-env
+  - 依赖图谱（Dependencies Graph）
+    - makeDependenciesGraph 函数的思想理解即可
+  - 生成代码
+    - 递归调用，eval 执行 babel 编译后的代码
+- 总结
+  - js 基础（闭包、递归）
+  - babel
+  - node 底层模块
+- 小贴士
+  - 全局安装在命令行上高亮显示代码工具
+    - npm install cli-highlight -g
+    - node bundler.js | highlight（使用方法）

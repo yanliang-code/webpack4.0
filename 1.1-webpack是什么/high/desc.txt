@@ -1,0 +1,5 @@
+1.import .. from .. //  es6 module的语法，浏览器无法识别，需要webpack对其翻译，浏览器才能进行识别运行
+2.npm install  创建package.json
+3.npm install webpack-cli --save-dev
+4.npm install webpack --save-dev
+5.npx webpack index.js  // 用webpack翻译index.js，会出现dist文件夹，内部就是翻译后的文件

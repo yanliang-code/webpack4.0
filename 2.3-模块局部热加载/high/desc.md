@@ -1,0 +1,14 @@
+- Hot Module Replacement HMR 热模块替换
+- npm run start -> 没有生成 dist 目录，内部将编译后的文件放在内存中
+- 只修改 css 文件，不让其重新加载整个 document，只重新加载 css 文件；
+  - devServer{ hot: true,hotOnly: true,}
+  - new webpack.HotModuleReplacementPlugin()
+  - css-loader 底层自动加逻辑处理，判断哪个 css 进行了变化
+- 多个 js 模块，修改一个模块，只重载此模块
+  - devServer{ hot: true,hotOnly: true,}
+  - new webpack.HotModuleReplacementPlugin()
+  - 主文件 js 需要加处理逻辑，判读是否为 module.hot, 是：通过 accept('指定文件路径','回调函数')监听是否模块变化
+- vue 中有上面两种效果，实在 vue-loader 中实现的
+- webpack - DOCUMENTATION - GUIDES - Hot Module Replacement(阅读)
+- webpack - DOCUMENTATION - API - Hot Module Replacement(阅读)
+- webpack - DOCUMENTATION - CONCEPTS - Hot Module Replacement(阅读)

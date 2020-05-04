@@ -1,0 +1,12 @@
+- devDependencies 生产环境的依赖
+- 模拟线上服务器的插件包
+  - npm i http-server --save-dev
+  - 在 package.json 的 script 中配置"start": "http-server dist"（服务器读取 dist 文件夹内的内容）
+  - 通过 npm run start 启动一个服务
+- 此时 http-server 启动的服务是传统的服务，在服务正常启动时，可以访问；在服务挂掉后，再次刷新访问，显示无法连接；如何让在服务挂掉时，访问服务能够正常访问之前已经访问过的页面（缓存）？
+
+  - PWA 就可以实现这个需求
+    - npm install workbox-webpack-plugin --save-dev
+    - new WorkBoxPlugin.GenerateSW({clientsClaim: true,skipWaiting: true})
+    - npm run build 比平时多生成 service-worker（缓存，即使服务器挂掉也可以访问到） 与 workbox 两个文件
+    - index.js 中需要处理逻辑，判断浏览器是否支持 serviceWorker，支持让其浏览器访问生成的 service-worker.js

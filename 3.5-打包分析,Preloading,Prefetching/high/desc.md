@@ -1,0 +1,8 @@
+- 打包分析
+  - webpack --profile --json > stats.json 会生成 stats.json 文件
+  - http://webpack.github.io/analyse/ 将文件放入此网站会进行一波分析
+  - 官网推荐分析网站 webpack - DOCUMENTATION - GUIDES - Code Splitting - Bundle Analysis(阅读) 推荐 webpack-bundle-analyzer
+- 预加载（参考 index.js）
+  - webpack - DOCUMENTATION - GUIDES - Code Splitting - Prefetching/Preloading
+- 通过浏览器查看代码覆盖率方式（是否加载了许多无用代码）
+  - 开发者工具 - more tools - coverage

@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // 会通过判断指定的浏览器版本来进行是否兼容转换
+        "targets": {
+          "chrome": "67"
+        },
+        // 根据业务代码决定是否打包哪些polyfill中的内容到最终文件中
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+}

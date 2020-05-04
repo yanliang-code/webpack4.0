@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>网页内容</p>
+    <div id="root"></div>
+    <!-- 
+        有模块划分的概念，但是缺点也很多
+        1.需要在主文件引入大量js，麻烦 
+        2.每一个js都要发送一个请求，重新三次握手一个，耗费性能（HTTP1.0/1.1）
+    -->
+    <!-- 在html中写的script是同步加载的，动态创建script标签是异步加载的，除非你js逻辑处理在前一个js加载后再加载下一个 -->
+    <script src="./header.js"></script>
+    <script src="./sider.js"></script>
+    <script src="./content.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
